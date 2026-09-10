@@ -26,8 +26,8 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/newsbar_app/css/newsbar_app.css"
-# app_include_js = "/assets/newsbar_app/js/newsbar_app.js"
-
+app_include_js = ["/assets/newsbar_app/js/announcement_ticker.js"]
+fixtures = [{"doctype": "DocType", "filters": [["name", "=", "System Announcement"]]}]
 # include js, css files in header of web template
 # web_include_css = "/assets/newsbar_app/css/newsbar_app.css"
 # web_include_js = "/assets/newsbar_app/js/newsbar_app.js"
